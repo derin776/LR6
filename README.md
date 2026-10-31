@@ -62,3 +62,7 @@ git commit -m
 git push origin master
 git reset --hard HEAD~1
 ```
+
+## История операций
+
+![Скриншот финального лога (без последнего коммита)](/report_photos/log_final.png)
