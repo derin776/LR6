@@ -9,3 +9,42 @@
 
 ## Клонирование репозитория на компьютер
 
+После установки Git был запущен Git Bash и создан локальный клон форка
+
+![Скриншот страницы форка](https://github.com/derin776/LR6/blob/report/report_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-10-31%20182058.png)
+
+![Скриншот локального клонирования форка](https://github.com/derin776/LR6/blob/report/report_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-10-31%20232859%20%D0%BA%D0%BB%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.png)
+
+## Добавление файла и подтягивание изменений в локальный репозиторий
+
+На сайте форка был создан новый файл
+
+![Скриншот создания файла](https://github.com/derin776/LR6/blob/report/report_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-10-31%20183410.png)
+
+После этого была использована команда git pull для подтягивания изменений в локальный репозиторий
+
+![Скриншот подтягивания изменений](https://github.com/derin776/LR6/blob/report/report_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-10-31%20184356.png)
+
+## Получение логов
+
+Последние изменения были просмотрены с помощью команды git log
+
+![Скриншот логов](https://github.com/derin776/LR6/blob/report/report_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-10-31%20203623.png)
+
+## Слияние branch1 в ветку master и удаление ветки
+
+Слияние выполнялось из ветки master с помощью команды git merge branch1. Во время слияния произошёл конфликт файла, который был разрешён путём выбора между изменениями. Был выбран вариант "Accept Incoming Change"
+
+![Скриншот merge](https://github.com/derin776/LR6/blob/report/report_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-10-31%20213326.png)
+
+После этого ветка branch1 была удалена из локального репозитория, а ветка master была коммитнута и загружена на сервер
+
+![Скриншот удаления ветки](https://github.com/derin776/LR6/blob/report/report_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-10-31%20225137%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%B5%D1%82%D0%BA%D0%B8.png)
+
+## Откат коммита
+
+Был создан новый файл в заново загруженной ветке branch1. После слияния branch1 в master было принято решение откатить коммит. Для этого в ветках master и branch1 была прописана команда git reset --hard HEAD~1. После этого добавленный файл удалился, а изменения откатились.
+
+![Скриншот отката коммита](https://github.com/derin776/LR6/blob/report/report_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-10-31%20225030%20%D0%BE%D1%82%D0%BA%D0%B0%D1%82%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%B0.png)
+
+Далее была создана новая ветка в локальном репозитории report, в которой в файле README.md был написан отчёт.
