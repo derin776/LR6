@@ -48,3 +48,15 @@
 ![Скриншот отката коммита](https://github.com/derin776/LR6/blob/report/report_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202026-10-31%20225030%20%D0%BE%D1%82%D0%BA%D0%B0%D1%82%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%B0.png)
 
 Далее была создана новая ветка в локальном репозитории report, в которой в файле README.md был написан отчёт.
+
+## Лог команд
+- git clone https://github.com/derin776/LR6.git
+- git pull
+- git log
+- git checkout
+- git merge branch1
+- git status
+- git add .
+- git commit -m
+- git push origin master
+- git reset --hard HEAD~1
