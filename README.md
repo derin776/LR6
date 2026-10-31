@@ -50,7 +50,7 @@
 Далее была создана новая ветка в локальном репозитории report, в которой в файле README.md был написан отчёт.
 
 ## Лог команд
-'''
+```
 git clone https://github.com/derin776/LR6.git
 git pull
 git log
@@ -61,4 +61,4 @@ git add .
 git commit -m
 git push origin master
 git reset --hard HEAD~1
-'''
+```
